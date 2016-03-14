@@ -1,6 +1,6 @@
-# jsfork `[]()!+`
+# JSFork `[]()!+`
 
-jsfork is an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
+JSFork is an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.
 
 It does not depend on a browser, so you can even run it on Node.js.
 
