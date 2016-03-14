@@ -6,7 +6,7 @@
   "bin": "fork.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomhodgins/jsfuck.git"
+    "url": "git@github.com:tomhodgins/jsfork.git"
   },
   "keywords": [
     "esoteric",
@@ -27,7 +27,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/tomhodgins/jsfuck"
+    "url": "https://github.com/tomhodgins/jsfork/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

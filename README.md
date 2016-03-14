@@ -4,7 +4,7 @@ jsfork is an esoteric and educational programming style based on the atomic part
 
 It does not depend on a browser, so you can even run it on Node.js.
 
-Demo: [jsfork.com](http://www.jsfork.com)
+Demo: [jsf%75%63k.com](http://www.jsf%75%63k.com)
 
 ### Example
 
