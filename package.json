@@ -1,12 +1,12 @@
 {
-  "name": "jsfuck",
+  "name": "jsfork",
   "version": "0.4.0",
   "description": "Write any JavaScript with just 6 characters: []()!+",
-  "main": "jsfuck.js",
-  "bin": "fuck.js",
+  "main": "jsfork.js",
+  "bin": "fork.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aemkei/jsfuck.git"
+    "url": "git@github.com:tomhodgins/jsfuck.git"
   },
   "keywords": [
     "esoteric",
@@ -16,14 +16,18 @@
     "name": "Martin Kleppe",
     "url": "https://github.com/aemkei"
   },
+  "author": {
+    "name": "Tommy Hodgins",
+    "url": "https://github.com/tomhodgins"
+  },
   "licenses": [
     {
       "type": "WTFPL",
-      "url": "https://raw.github.com/aemkei/jsfuck/master/LICENSE.txt"
+      "url": "https://github.com/tomhodgins/jsfork/master/LICENSE.txt"
     }
   ],
   "bugs": {
-    "url": "https://github.com/aemkei/jsfuck/issues"
+    "url": "https://github.com/tomhodgins/jsfuck"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

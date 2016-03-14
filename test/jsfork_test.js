@@ -1,9 +1,9 @@
 /*jshint -W061 */
 'use strict';
 
-var JSFuck = require('../jsfuck.js').JSFuck,
+var JSFork = require('../jsfork.js').JSFork,
 	test_encode = function (test, value) {
-		var encoded = JSFuck.encode(value),
+		var encoded = JSFork.encode(value),
 			unencoded = eval(encoded);
 
 		test.strictEqual(value, unencoded, 'encoding "' + value + '" failed');
@@ -17,7 +17,7 @@ exports['integration'] = {
 
 		for (var i = MIN; i < MAX; i++) {
 			var c = String.fromCharCode(i),
-				encoded = JSFuck.encode(c);
+				encoded = JSFork.encode(c);
 			fs.writeSync(file, '`' + c + '` ' + encoded.length + '\n');
 		}
 

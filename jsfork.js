@@ -1,4 +1,4 @@
-/*! JSFuck 0.4.0 - http://jsfuck.com */
+/*! JSFork 0.4.0 - http://jsf%75%63k.com */
 
 (function(self){
 
@@ -264,7 +264,7 @@
             "([]+[])[" + encode("constructor") + "]" +
             "[" + encode("fromCharCode") + "]" +
             "(" + encode(c.charCodeAt(0) + "") + ")";
-   
+
           output.push(replacement);
           MAPPING[c] = replacement;
         }
@@ -298,7 +298,7 @@
   replaceMap();
   replaceStrings();
 
-  self.JSFuck = {
+  self.JSFork = {
     encode: encode
   };
 })(typeof(exports) === "undefined" ? window : exports);
